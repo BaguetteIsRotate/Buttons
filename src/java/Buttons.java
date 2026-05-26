@@ -14,7 +14,7 @@ public class Buttons{
     public static void main(String[] args){
         Random rand = new Random();
         final String[] target = {String.format("%05d", rand.nextInt(100000))};
-        JFrame baguette = new JFrame("Calculator");
+        JFrame baguette = new JFrame("Buttons");
         baguette.setLayout(new FlowLayout());
         baguette.setSize(290,400);
         baguette.setLocationRelativeTo(null);
